@@ -9,8 +9,8 @@ session_start();
 define('DB_HOST', 'localhost');       // Replace with your DB host
 define('DB_USER', 'root');     // Replace with your DB username
 define('DB_PASS', 'Dhiraj@2009'); // Replace with your DB password
-define('DB_NAME', 'StudyNexus');   // Replace with your DB name
-define('SITE_TITLE', 'StudyNexus');
+define('DB_NAME', 'studynexus');   // Replace with your DB name
+define('SITE_TITLE', 'studynexus');
 define('BASE_URL', strtok($_SERVER["REQUEST_URI"], '?')); // Gets the base path for cleaner URLs
 
 // --- DATABASE CONNECTION (PDO) ---
